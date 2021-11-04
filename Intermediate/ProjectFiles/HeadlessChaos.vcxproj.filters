@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Target.cs" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Build.cs" />
+    <Filter Include="Merge">
+      <UniqueIdentifier>{0387BBFD-1EBE-44B3-B7AB-ED08A5EDD73F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Merge\merge.py">
+      <Filter>Merge</Filter>
+    </None>
+    <Filter Include="Private">
+      <UniqueIdentifier>{3E1A962F-4F83-4B0B-99D1-3DCBCDC9B3FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosCollisionConstraints.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestAABB.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBP.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBroadphase.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCCD.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCloth.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestClustering.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCollisions.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraintHandle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraints.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConvex.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDataMarshalling.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDenseMatrix.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDetectCollision.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDirtyParticle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestEPA.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestForces.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJK.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJKDistance.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGraph.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHandles.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHeightfield.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicitMassProperties.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicits.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoint.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointBreak.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointForces.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointPlasticity.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointRestitution.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoints.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointSolver.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointUtilities.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestLargeScale.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMassProperties.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMath.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMinEvolution.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMostOpposing.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMultiply.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestOneShotManifolds.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestParticleHandle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestPhysicsScene.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRaycast.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRewind.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRotation.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSerialization.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestShapePadding.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSim.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSolverProxies.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSpatialHashing.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSweep.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestUtility.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestVehicles.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\GeometryCollection">
+      <UniqueIdentifier>{90C9041A-A025-4BFA-A928-CDBB6D5CCA6B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestBoneHierarchy.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClean.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClustering.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCollisionResolution.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCreation.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestDecimation.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestEvents.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFields.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFramework.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCapsule.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCylinder.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitSphere.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestInitilization.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMassProperties.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMatrices.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestPlugin.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestProximity.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestResponse.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSerialization.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulation.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationField.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationSolver.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationStreaming.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSkeletalMeshPhysicsProxy.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSpatialHash.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestUtility.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestVisibility.cpp">
+      <Filter>Private\GeometryCollection</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{B71AC906-766D-45ED-8848-28A2678062E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaos.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosCollisionConstraints.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBP.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBroadphase.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCloth.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestClustering.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCollisions.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestConstraints.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestEPA.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestForces.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestGJK.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestHandles.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestImplicits.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestMostOpposing.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestParticleHandle.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestRaycast.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSerialization.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverCommandList.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverProxies.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSpatialHashing.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSweep.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestUtility.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Public\GeometryCollection">
+      <UniqueIdentifier>{46FAE19E-044A-43F9-8D4C-1A2EB3A18C66}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTest.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestBoneHierarchy.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClean.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClustering.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCollisionResolution.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCreation.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestDecimation.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestEvents.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFields.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFramework.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCapsule.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCylinder.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitSphere.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestInitilization.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMassProperties.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMatrices.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestPlugin.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestProximity.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestResponse.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSerialization.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulation.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationField.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationSolver.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationStreaming.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSkeletalMeshPhysicsProxy.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSpatialHash.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestUtility.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestVisibility.h">
+      <Filter>Public\GeometryCollection</Filter>
+    </ClInclude>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{9A8855D7-DDFF-4583-AAE0-CB5DA7FFC35F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CubeGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\Cylinder.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry1.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry2.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

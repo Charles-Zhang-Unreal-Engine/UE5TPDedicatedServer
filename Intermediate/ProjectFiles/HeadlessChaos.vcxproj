@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|arm64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug_Program|x64">
+      <Configuration>Android_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug_Program|arm64">
+      <Configuration>Android_Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug_Program|Win64">
+      <Configuration>Android_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Debug_Program|x64">
+      <Configuration>Linux_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Debug_Program|arm64">
+      <Configuration>Linux_Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Debug_Program|Win64">
+      <Configuration>Linux_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Debug_Program|x64">
+      <Configuration>LinuxAArch64_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Debug_Program|arm64">
+      <Configuration>LinuxAArch64_Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Debug_Program|Win64">
+      <Configuration>LinuxAArch64_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|arm64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame_Program|x64">
+      <Configuration>Android_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame_Program|arm64">
+      <Configuration>Android_DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame_Program|Win64">
+      <Configuration>Android_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_DebugGame_Program|x64">
+      <Configuration>Linux_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_DebugGame_Program|arm64">
+      <Configuration>Linux_DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_DebugGame_Program|Win64">
+      <Configuration>Linux_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_DebugGame_Program|x64">
+      <Configuration>LinuxAArch64_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_DebugGame_Program|arm64">
+      <Configuration>LinuxAArch64_DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_DebugGame_Program|Win64">
+      <Configuration>LinuxAArch64_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|arm64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development_Program|x64">
+      <Configuration>Android_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development_Program|arm64">
+      <Configuration>Android_Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development_Program|Win64">
+      <Configuration>Android_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Development_Program|x64">
+      <Configuration>Linux_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Development_Program|arm64">
+      <Configuration>Linux_Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Development_Program|Win64">
+      <Configuration>Linux_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Development_Program|x64">
+      <Configuration>LinuxAArch64_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Development_Program|arm64">
+      <Configuration>LinuxAArch64_Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Development_Program|Win64">
+      <Configuration>LinuxAArch64_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|arm64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping_Program|x64">
+      <Configuration>Android_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping_Program|arm64">
+      <Configuration>Android_Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping_Program|Win64">
+      <Configuration>Android_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Shipping_Program|x64">
+      <Configuration>Linux_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Shipping_Program|arm64">
+      <Configuration>Linux_Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Shipping_Program|Win64">
+      <Configuration>Linux_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Shipping_Program|x64">
+      <Configuration>LinuxAArch64_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Shipping_Program|arm64">
+      <Configuration>LinuxAArch64_Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Shipping_Program|Win64">
+      <Configuration>LinuxAArch64_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|arm64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test_Program|x64">
+      <Configuration>Android_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test_Program|arm64">
+      <Configuration>Android_Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test_Program|Win64">
+      <Configuration>Android_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Test_Program|x64">
+      <Configuration>Linux_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Test_Program|arm64">
+      <Configuration>Linux_Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Linux_Test_Program|Win64">
+      <Configuration>Linux_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Test_Program|x64">
+      <Configuration>LinuxAArch64_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Test_Program|arm64">
+      <Configuration>LinuxAArch64_Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LinuxAArch64_Test_Program|Win64">
+      <Configuration>LinuxAArch64_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71DFD1FA-4B9C-3C3B-AF29-551B256C7894}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>HeadlessChaos</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Win64\NotForLicensees\HeadlessChaos-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos HoloLens Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos HoloLens Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos HoloLens Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\HoloLens\NotForLicensees\HeadlessChaos-HoloLens-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Android Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Android Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Android Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Android\NotForLicensees\HeadlessChaos-Android-Debug.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Linux Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Linux Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Linux Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Linux\NotForLicensees\HeadlessChaos-Linux-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos LinuxAArch64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos LinuxAArch64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos LinuxAArch64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\LinuxAArch64\NotForLicensees\HeadlessChaos-LinuxAArch64-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Win64\NotForLicensees\HeadlessChaos-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\HoloLens\NotForLicensees\HeadlessChaos-HoloLens-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Android DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Android DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Android DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Android\NotForLicensees\HeadlessChaos-Android-DebugGame.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Linux DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Linux DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Linux DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Linux\NotForLicensees\HeadlessChaos-Linux-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos LinuxAArch64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos LinuxAArch64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos LinuxAArch64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\LinuxAArch64\NotForLicensees\HeadlessChaos-LinuxAArch64-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Win64\NotForLicensees\HeadlessChaos.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos HoloLens Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos HoloLens Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos HoloLens Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\HoloLens\NotForLicensees\HeadlessChaos.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Android Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Android Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Android Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Android\NotForLicensees\HeadlessChaos.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Linux Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Linux Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Linux Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Linux\NotForLicensees\HeadlessChaos</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos LinuxAArch64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos LinuxAArch64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos LinuxAArch64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\LinuxAArch64\NotForLicensees\HeadlessChaos</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Win64\NotForLicensees\HeadlessChaos-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos HoloLens Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos HoloLens Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos HoloLens Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\HoloLens\NotForLicensees\HeadlessChaos-HoloLens-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Android Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Android Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Android Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Android\NotForLicensees\HeadlessChaos-Android-Shipping.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Linux Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Linux Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Linux Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Linux\NotForLicensees\HeadlessChaos-Linux-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos LinuxAArch64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos LinuxAArch64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos LinuxAArch64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\LinuxAArch64\NotForLicensees\HeadlessChaos-LinuxAArch64-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Win64\NotForLicensees\HeadlessChaos-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos HoloLens Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos HoloLens Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos HoloLens Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\HoloLens\NotForLicensees\HeadlessChaos-HoloLens-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Android Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Android Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Android Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Android\NotForLicensees\HeadlessChaos-Android-Test.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Linux_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos Linux Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Linux Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Linux Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\Linux\NotForLicensees\HeadlessChaos-Linux-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LinuxAArch64_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Build.bat HeadlessChaos LinuxAArch64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos LinuxAArch64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Applications\UnrealEngine5\Engine\Build\BatchFiles\Clean.bat HeadlessChaos LinuxAArch64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Applications\UnrealEngine5\Engine\Binaries\LinuxAArch64\NotForLicensees\HeadlessChaos-LinuxAArch64-Test</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\Applications\UnrealEngine5\Engine\Source;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Launch\Private;C:\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ApplicationCore;C:\Applications\UnrealEngine5\Engine\Source\Runtime;C:\Applications\UnrealEngine5\Engine\Source\Runtime\ApplicationCore\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Core;C:\Applications\UnrealEngine5\Engine\Source\Runtime\TraceLog\Public;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Core\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\TraceLog;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\RHI;C:\Applications\UnrealEngine5\Engine\Source\Runtime\RHI\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\CoreUObject;C:\Applications\UnrealEngine5\Engine\Source\Runtime\CoreUObject\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Projects;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Projects\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Json;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Json\Public;C:\Applications\UnrealEngine5\Engine\Source\ThirdParty;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\GeometricObjects;C:\Applications\UnrealEngine5\Engine\Plugins\Experimental\GeometryProcessing\Source;C:\Applications\UnrealEngine5\Engine\Plugins\Experimental\GeometryProcessing\Source\GeometricObjects\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\MeshUtilitiesCommon;C:\Applications\UnrealEngine5\Engine\Source\Runtime\MeshUtilitiesCommon\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosVehiclesCore;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental\ChaosVehicles;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesCore\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Chaos;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental\Chaos\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosCore;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental\ChaosCore\Public;C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\Intel;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Voronoi;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Experimental\Voronoi\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\HeadlessChaos;C:\Applications\UnrealEngine5\Engine\Source\Programs;C:\Applications\UnrealEngine5\Engine\Source\Runtime\Launch\Public;C:\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\PhysicsCore;C:\Applications\UnrealEngine5\Engine\Source\Runtime\PhysicsCore\Public;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\DeveloperSettings;C:\Applications\UnrealEngine5\Engine\Source\Runtime\DeveloperSettings\Public;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Target.cs"/>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Merge\merge.py"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosCollisionConstraints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestAABB.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBP.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBroadphase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCCD.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCloth.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestClustering.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCollisions.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraintHandle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConvex.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDataMarshalling.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDenseMatrix.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDetectCollision.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDirtyParticle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestEPA.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestForces.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJK.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJKDistance.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGraph.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHandles.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHeightfield.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicitMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicits.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoint.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointBreak.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointForces.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointPlasticity.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointRestitution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointSolver.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointUtilities.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestLargeScale.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMath.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMinEvolution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMostOpposing.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMultiply.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestOneShotManifolds.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestParticleHandle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestPhysicsScene.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRaycast.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRewind.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRotation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSerialization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestShapePadding.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSim.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSolverProxies.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSpatialHashing.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSweep.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestVehicles.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestBoneHierarchy.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClean.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClustering.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCollisionResolution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCreation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestDecimation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestEvents.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFields.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFramework.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCapsule.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCylinder.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitSphere.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestInitilization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMatrices.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestPlugin.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestProximity.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestResponse.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSerialization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationField.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationSolver.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationStreaming.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSkeletalMeshPhysicsProxy.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSpatialHash.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestVisibility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaos.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosApp.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosCollisionConstraints.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBP.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBroadphase.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCloth.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestClustering.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCollisions.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestConstraints.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestEPA.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestForces.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestGJK.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestHandles.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestImplicits.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestMostOpposing.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestParticleHandle.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestRaycast.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSerialization.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverCommandList.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverProxies.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSpatialHashing.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSweep.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestUtility.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTest.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestBoneHierarchy.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClean.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClustering.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCollisionResolution.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCreation.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestDecimation.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestEvents.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFields.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFramework.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCapsule.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCylinder.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitSphere.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestInitilization.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMassProperties.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMatrices.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestPlugin.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestProximity.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestResponse.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSerialization.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulation.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationField.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationSolver.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationStreaming.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSkeletalMeshPhysicsProxy.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSpatialHash.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestUtility.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestVisibility.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CubeGeometry.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\Cylinder.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry1.h"/>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry2.h"/>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Applications\UnrealEngine5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h;C:\Applications\UnrealEngine5\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

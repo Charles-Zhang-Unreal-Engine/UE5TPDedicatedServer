@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Target.cs" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{01E90210-AAC7-49DF-AF4A-C1B9A890C089}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperLibCEFIncludes.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Linux">
+      <UniqueIdentifier>{CFD9546D-6921-4575-96C9-621E39D2FF32}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\Linux\EpicWebHelperLinux.cpp">
+      <Filter>Private\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Mac">
+      <UniqueIdentifier>{251613D0-4D79-4DF1-96D3-B6AF1985D8BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\Mac\EpicWebHelperMac.cpp">
+      <Filter>Private\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{64DEB455-3798-465D-AFD1-FA605FE11481}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Private\Windows\EpicWebHelperWindows.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{00CE4D11-26D0-4561-ABB9-A392493ECE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mac">
+      <UniqueIdentifier>{7F8955C5-39DA-4BF6-BA7F-8028C580B29F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Mac\Info.plist">
+      <Filter>Resources\Mac</Filter>
+    </None>
+    <Filter Include="Resources\Windows">
+      <UniqueIdentifier>{23D49F2C-1F42-4D18-9450-786973EAB105}</UniqueIdentifier>
+    </Filter>
+    <Manifest Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win32.manifest">
+      <Filter>Resources\Windows</Filter>
+    </Manifest>
+    <Manifest Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win64.manifest">
+      <Filter>Resources\Windows</Filter>
+    </Manifest>
+    <Manifest Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win32.manifest">
+      <Filter>Resources\Windows</Filter>
+    </Manifest>
+    <Manifest Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win64.manifest">
+      <Filter>Resources\Windows</Filter>
+    </Manifest>
+    <ResourceCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper.rc">
+      <Filter>Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Target.cs" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Build.cs" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.i" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\FacadeHeaderHelper.py" />
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\ReadMe.txt" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{6C9A8F66-1FC5-43DF-BBE9-DF7000A4E62B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeDLL.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{243FFF1B-660C-456B-98DA-C8A3B1CF8B62}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharp.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharpPINVOKE.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeMaterialExpressionType.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActor.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorCamera.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeAreaLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeBaseMaterial.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeDirectionalLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeDirectLink.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeElement.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionInput.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionParameter.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionParameterSwigImpl.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeKeyValueProperty.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLightmassPortal.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLog.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMasterMaterial.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpression.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionBool.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionColor.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionFlattenNormal.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionFunctionCall.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionGeneric.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionScalar.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionTexture.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionTextureCoordinate.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialID.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialsUtils.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMeshElement.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMetaData.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadePointLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeScene.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeSpotLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeTexture.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeUEPbrMaterial.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeUniqueNameProvider.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\IDatasmithExporterUIModule.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Applications\UnrealEngine5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\IDirectLinkUI.cs">
+      <Filter>Public</Filter>
+    </None>
+  </ItemGroup>
+</Project>

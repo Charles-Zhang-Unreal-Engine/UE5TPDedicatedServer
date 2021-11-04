@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TPGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1F7461B3-3DD9-43F1-ABF6-73366ACFB47A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TPGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TPGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TPGameServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A6FFB259-5DD4-4E05-9985-7A48DF354796}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TPGame">
+      <UniqueIdentifier>{A85F1841-9A37-47A0-A13E-8FF0A984411B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TPGame\MyBlueprintFunctionLibrary.cpp">
+      <Filter>Source\TPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPGame\MyBlueprintFunctionLibrary.h">
+      <Filter>Source\TPGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TPGame\TPGame.Build.cs">
+      <Filter>Source\TPGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TPGame\TPGame.cpp">
+      <Filter>Source\TPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPGame\TPGame.h">
+      <Filter>Source\TPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TPGame\TPGameCharacter.cpp">
+      <Filter>Source\TPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPGame\TPGameCharacter.h">
+      <Filter>Source\TPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TPGame\TPGameGameMode.cpp">
+      <Filter>Source\TPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPGame\TPGameGameMode.h">
+      <Filter>Source\TPGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

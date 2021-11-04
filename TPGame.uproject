@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{348D6477-475A-839B-27D8-8993ABA6EC3F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TPGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
